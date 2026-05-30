@@ -16,7 +16,7 @@ def delete_extra_fonts(directory_path, font_name):
             try:
                 if os.path.isfile(file_path):
                     os.remove(file_path)
-                    print("Готово")
+                    print(f"Удален файл {file_path}")
             except Exception as e:
                 print(f"Ошибка при удалении... Ошибка: {e}")
 
