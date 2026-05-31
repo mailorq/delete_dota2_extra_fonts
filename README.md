@@ -10,12 +10,6 @@
 git clone https://github.com/mailorq/delete_dota2_extra_fonts.git
 ```
 
-Активируете venv
-```
-python -m venv .venv
-.\.venv\Scripts\activate
-```
-
 Заходите в директорию файла:
 ```
 cd delete_dota2_extra_fonts
@@ -23,5 +17,5 @@ cd delete_dota2_extra_fonts
 
 Запуск
 ```
-python app.py
+cargo run
 ```
